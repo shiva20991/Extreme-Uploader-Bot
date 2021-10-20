@@ -7,7 +7,7 @@ else:
 
 from plugins.youtube_dl_button import youtube_dl_call_back
 from plugins.dl_button import ddl_call_back
-from translation import Translation
+from script import Script
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -20,20 +20,20 @@ async def button(bot, update):
         await ddl_call_back(bot, update)
     elif update.data == "home":
         await update.message.edit_text(
-            text=Translation.START_TEXT.format(update.from_user.mention),
-            reply_markup=Translation.START_BUTTONS,
+            text=Script.START_TEXT.format(update.from_user.mention),
+            reply_markup=Script.START_BUTTONS,
             disable_web_page_preview=True
         )
     elif update.data == "help":
         await update.message.edit_text(
-            text=Translation.HELP_TEXT,
-            reply_markup=Translation.HELP_BUTTONS,
+            text=Script.HELP_TEXT,
+            reply_markup=Script.HELP_BUTTONS,
             disable_web_page_preview=True
         )
     elif update.data == "about":
         await update.message.edit_text(
-            text=Translation.ABOUT_TEXT,
-            reply_markup=Translation.ABOUT_BUTTONS,
+            text=Script.ABOUT_TEXT,
+            reply_markup=Script.ABOUT_BUTTONS,
             disable_web_page_preview=True
         )
     else:
