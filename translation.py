@@ -29,18 +29,6 @@ Telegram ID: <code>{}</code>
 Plan name: 75GB Per Month
 Expires on: 10/12/2021
 --------"""
-    HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html</b>
-
- <b>Upload as file from any HTTP link</b>
-
- <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
-
- <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
-
- <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
---------
-
-Send /me To Know Your Current Plan Details"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
     REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.</b>"
     REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.</b>"
