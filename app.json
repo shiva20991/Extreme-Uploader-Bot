@@ -51,3 +51,4 @@
       "required": false
     },
     "CHAT_BASE_TOKEN": {
+      "description": "Channel id",
