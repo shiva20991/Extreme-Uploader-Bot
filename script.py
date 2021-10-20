@@ -2,7 +2,7 @@ class script(object)
      START_TEXT = """
 <b>Hello {}!!!
 
-I'am a url to telegram file or media uploader bot with permanent thumbnail support.</b>
+I am Extreme uploader bot with permanent thumbnail support.</b>
 
 <i>For More Details check Help 📜</i>
 """
