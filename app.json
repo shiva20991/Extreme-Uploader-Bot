@@ -52,18 +52,18 @@
     },
     "CHAT_BASE_TOKEN": {
       "description": "Channel id",
-  },
-  "addons": [
+    },
+    "addons": [
   ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
+    "buildpacks": [{
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   }, {
+     "url": "heroku/python"
+   }],
+    "formation": {
+      "worker": {
+       "quantity": 1,
+       "size": "free"
+     }
+   }
 }
