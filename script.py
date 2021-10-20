@@ -1,5 +1,5 @@
 class script(object)
-START_TEXT = """
+      START_TEXT = """
 <b>Hello {}!!!
 
 I'am a url to telegram file or media uploader bot with permanent thumbnail support.</b>
